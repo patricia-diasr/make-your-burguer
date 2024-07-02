@@ -14,4 +14,22 @@ export default {
     },
 };
 </script>
-<style lang="less"></style>
+<style lang="less">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+main {
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #222;
+}
+</style>
