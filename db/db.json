@@ -87,54 +87,8 @@
         "Salame",
         "Cebola roxa"
       ],
-      "status": "Finalizado",
+      "status": "Em produção",
       "id": "1"
-    },
-    {
-      "name": "João Coelho",
-      "meat": "Maminha",
-      "bread": "3 Queijos",
-      "optionals": [
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": "4"
-    },
-    {
-      "id": "00db",
-      "name": "Patrícia",
-      "meat": "Picanha",
-      "bread": "Parmesão e Orégano",
-      "optionals": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "bd7c",
-      "name": "Maria",
-      "meat": "Veggie burger",
-      "bread": null,
-      "optionals": [
-        "Cebola roxa",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "59eb",
-      "name": "Matheus",
-      "meat": "Maminha",
-      "bread": "3 Queijos",
-      "optionals": [
-        "Bacon",
-        "Salame",
-        "Cheddar"
-      ],
-      "status": "Solicitado"
     }
   ]
 }

@@ -24,6 +24,7 @@ export default {
 
 main {
     margin: 50px;
+    min-height: calc(100vh - 700px)
 }
 
 h1 {
