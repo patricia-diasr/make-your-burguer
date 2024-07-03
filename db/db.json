@@ -1,98 +1,140 @@
 {
-    "ingredientes": {
-        "paes": [
-            {
-                "id": 1,
-                "tipo": "Italiano Branco"
-            },
-            {
-                "id": 2,
-                "tipo": "3 Queijos"
-            },
-            {
-                "id": 3,
-                "tipo": "Parmesão e Orégano"
-            },
-            {
-                "id": 4,
-                "tipo": "Integral"
-            }
-        ],
-        "carnes": [
-            {
-                "id": 1,
-                "tipo": "Maminha"
-            },
-            {
-                "id": 2,
-                "tipo": "Alcatra"
-            },
-            {
-                "id": 3,
-                "tipo": "Picanha"
-            },
-            {
-                "id": 4,
-                "tipo": "Veggie burger"
-            }
-        ],
-        "opcionais": [
-            {
-                "id": 1,
-                "tipo": "Bacon"
-            },
-            {
-                "id": 2,
-                "tipo": "Cheddar"
-            },
-            {
-                "id": 3,
-                "tipo": "Salame"
-            },
-            {
-                "id": 4,
-                "tipo": "Tomate"
-            },
-            {
-                "id": 4,
-                "tipo": "Cebola roxa"
-            },
-            {
-                "id": 4,
-                "tipo": "Pepino"
-            }
-        ]
-    },
-    "status": [
-        {
-            "id": 1,
-            "tipo": "Solicitado"
-        },
-        {
-            "id": 2,
-            "tipo": "Em produção"
-        },
-        {
-            "id": 3,
-            "tipo": "Finalizado"
-        }
+  "ingredients": {
+    "breads": [
+      {
+        "id": 1,
+        "type": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "type": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "type": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "type": "Integral"
+      }
     ],
-    "burgers": [
-        {
-            "nome": "Matheus Battisti",
-            "carne": "Picanha",
-            "pao": "Italiano Branco",
-            "opcionais": ["Bacon", "Salame", "Cebola roxa"],
-            "status": "Finalizado",
-            "id": 1
-        },
-        {
-            "nome": "João Coelho",
-            "carne": "Maminha",
-            "pao": "3 Queijos",
-            "opcionais": ["Salame", "Cebola roxa"],
-            "status": "Solicitado",
-            "id": 4
-        }
+    "meats": [
+      {
+        "id": 1,
+        "type": "Maminha"
+      },
+      {
+        "id": 2,
+        "type": "Alcatra"
+      },
+      {
+        "id": 3,
+        "type": "Picanha"
+      },
+      {
+        "id": 4,
+        "type": "Veggie burger"
+      }
+    ],
+    "optionals": [
+      {
+        "id": 1,
+        "type": "Bacon"
+      },
+      {
+        "id": 2,
+        "type": "Cheddar"
+      },
+      {
+        "id": 3,
+        "type": "Salame"
+      },
+      {
+        "id": 4,
+        "type": "Tomate"
+      },
+      {
+        "id": 4,
+        "type": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "type": "Pepino"
+      }
     ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "type": "Solicitado"
+    },
+    {
+      "id": "2",
+      "type": "Em produção"
+    },
+    {
+      "id": "3",
+      "type": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "name": "Matheus Battisti",
+      "meat": "Picanha",
+      "bread": "Italiano Branco",
+      "optionals": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Finalizado",
+      "id": "1"
+    },
+    {
+      "name": "João Coelho",
+      "meat": "Maminha",
+      "bread": "3 Queijos",
+      "optionals": [
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": "4"
+    },
+    {
+      "id": "00db",
+      "name": "Patrícia",
+      "meat": "Picanha",
+      "bread": "Parmesão e Orégano",
+      "optionals": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "bd7c",
+      "name": "Maria",
+      "meat": "Veggie burger",
+      "bread": null,
+      "optionals": [
+        "Cebola roxa",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "59eb",
+      "name": "Matheus",
+      "meat": "Maminha",
+      "bread": "3 Queijos",
+      "optionals": [
+        "Bacon",
+        "Salame",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    }
+  ]
 }
