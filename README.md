@@ -1,23 +1,13 @@
-# make-your-burguer
+# Make Your Burger
 
-## Project setup
+Projeto de cadastro de lanches desenvolvido durante curso de Vue, com o objetivo de colocar em prática conhecimentos obtidos.
 
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
+## Link do Curso
 
-```
-npm run serve
-```
+https://youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL&feature=shared
 
-### Compiles and minifies for production
 
-```
-npm run build
-```
+## Carregar Projeto
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Para carregar o projeto, use as linhas de comando `npm run backend` e `npm run serve`
